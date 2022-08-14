@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Bap)";
+  src: url("../fonts/font_bap.otf");
+  src: url("../fonts/font_bap.otf") format("otf"),
+    url("../fonts/font_bap.otf") format("otf");
+}
+
+h1, h2, h3 {
+  font-family: "Bap";
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,158 @@
+.wrapper {
+  padding: 2rem;
+}
+.cover {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+.nav-bar {
+  width: 35rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.list-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon-media {
+  width: 40px;
+  height: 40px;
+}
+.container-music {
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.embed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+  height: 380px;
+  margin-top: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+.container-about {
+  margin-top: 14rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  line-height: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.t1,
+.t2,
+.t3 {
+  font-family: "Quicksand", sans-serif;
+  line-height: 22px;
+  color: #ffffff;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 350px) {
+  .image-logo {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("images/bg-site_bap-6.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrapper {
+    padding: 1rem 0 0 0;
+    margin-top: 0rem;
+  }
+  .image-logo {
+    width: 300px;
+  }
+  .nav-bar {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  .icon-media {
+    width: 26px;
+    height: 26px;
+  }
+  .container-music {
+    margin-top: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .embed {
+    width: 80%;
+    height: 100px;
+    margin-top: 0;
+  }
+  .container-music {
+    padding: 4rem 0 0rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+  }
+  .container-about {
+    margin-top: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .text {
+    width: 22rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Quicksand", sans-serif;
+    line-height: 22px;
+    text-align: left;
+  }
+}
