@@ -23,12 +23,16 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
 .icon-media {
   width: 40px;
   height: 40px;
 }
+.icon-media:hover{
+  margin-top: -0.5rem;
+}
 .container-music {
-  margin-top: 10rem;
+  margin-top: 14rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,12 +51,12 @@
   color: #ffffff;
 }
 
-.black {
+.dark-color {
   color: #000000;
 }
 
 .container-about {
-  margin-top: 14rem;
+  margin-top: 11rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -63,9 +67,10 @@
   margin-right: auto;
   margin-top: 2rem;
   font-family: "Quicksand", sans-serif;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 24px;
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .footer {
@@ -98,7 +103,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url("images/bg-site_bap-6.png");
+    background-image: url("images/bg-alt_4.png");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +113,7 @@
     margin-top: 0rem;
   }
   .image-logo {
-    width: 300px;
+    width: 350px;
   }
   .nav-bar {
     width: 15rem;
@@ -132,13 +137,14 @@
     margin-top: 0;
   }
   .container-music {
-    padding: 4rem 0 0rem 0;
+    padding: 0rem 0 0rem 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 0rem;
+    
   }
   .container-about {
-    margin-top: 23rem;
+    padding: 10rem 0 10rem 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -154,5 +160,6 @@
     font-family: "Quicksand", sans-serif;
     line-height: 22px;
     text-align: left;
+    font-size: 14px;
   }
 }
