@@ -38,7 +38,7 @@ body {
   margin-top: -0.5rem;
 }
 .container-music {
-  margin-top: 14rem;
+  margin-top: 12rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,23 +48,22 @@ body {
   margin-right: auto;
   width: 40rem;
   height: 380px;
-  margin-top: 2rem;
 }
 
 .title {
   text-align: center;
   font-size: 4rem;
   color: #ffffff;
+  margin-bottom: 4rem;
 }
 
 .dark-color {
   color: #000000;
+   margin-bottom: 2rem;
 }
 
 .container-about {
-  margin-top: 11rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 11rem auto 0 auto;
 }
 
 .text {
@@ -80,7 +79,7 @@ body {
 }
 
 .footer {
-  margin-top: 10rem;
+  margin-top: 8rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -89,7 +88,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
 }
 .t1,
 .t2,
@@ -101,13 +99,63 @@ body {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 350px) {
+/*---tablet---*/
+@media only screen and (max-width: 811px) {
+  .wrapper {
+    padding: 0 0 0 0;
+    margin-top: 5rem;
+  }
   .image-logo {
-    width: 200px;
+    width: 550px;
+  }
+  .nav-bar {
+    width: 20rem;
+    margin-top: 4rem;
+  }
+
+  .icon-media {
+    width: 35px;
+    height: 35px;
+  }
+  .embed {
+    width: 80%;
+    height: 300px;
+    margin-top: 0rem;
+  }
+  .container-music {
+    padding: 0rem 0 0rem 0;
+    margin-bottom: 0rem;
+  }
+  .container-about {
+    padding: 0rem 0 11rem 0;
+    margin: 0 auto 0 auto;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .text {
+    width: 36rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  .footer {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
   }
 }
 
-@media only screen and (max-width: 430px) {
+
+@media only screen and (max-width: 375px) {
   body {
     background-image: url("../images/bg-alt_1.png");
     background-position: center top;
@@ -119,7 +167,7 @@ body {
     margin-top: 5rem;
   }
   .image-logo {
-    width: 400px;
+    width: 320px;
   }
   .nav-bar {
     width: 20rem;
@@ -145,8 +193,7 @@ body {
   }
   .container-about {
     padding: 0rem 0 11rem 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
   }
   .title {
     font-size: 2.5rem;
@@ -176,3 +223,66 @@ body {
     padding-top: 6rem;
   }
 }
+@media only screen and (max-width: 430px) {
+  body {
+    background-image: url("../images/bg-alt_1.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .wrapper {
+    padding: 0rem 0 0 0;
+    margin-top: 5rem;
+  }
+  .image-logo {
+    width: 390px;
+  }
+  .nav-bar {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+  }
+
+  .icon-media {
+    width: 30px;
+    height: 30px;
+  }
+  .embed {
+    width: 80%;
+    height: 200px;
+    margin-top: 0rem;
+  }
+  .container-music {
+    padding: 0rem 0 0rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+  }
+  .container-about {
+    padding: 0rem 0 5rem 0;
+    margin: 0 auto 0 auto;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .text {
+    width: 22rem;
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  .footer {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+  }
+}
+
