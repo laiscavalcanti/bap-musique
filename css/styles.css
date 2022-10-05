@@ -148,7 +148,7 @@ body {
   }
 }
 /*---phones---*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 374px) {
   body {
     background-image: url("../images/bg-alt_1.png");
   }
@@ -216,7 +216,7 @@ body {
     margin-top: 5rem;
   }
   .image-logo {
-    width: 390px;
+    width: 365px;
   }
   .nav-bar {
     width: 20rem;
