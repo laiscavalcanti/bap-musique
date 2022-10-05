@@ -1,12 +1,17 @@
 @font-face {
-  font-family: "Bap)";
-  src: url("../fonts/font_bap.otf");
-  src: url("../fonts/font_bap.otf") format("otf"),
-    url("../fonts/font_bap.otf") format("otf");
+  font-family: Barlow-Regular;
+  src: url("../fonts/Barlow-Regular.ttf") format("truetype"),
+    url("../fonts/Barlow-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Babelfish;
+  src: url("../fonts/Babelfish.ttf") format("truetype"),
+    url("../fonts/Babelfish.ttf") format("truetype");
 }
 
+
+
 h1, h2, h3 {
-  font-family: "Bap";
-  font-weight: normal;
+  font-family: Babelfish;
   font-style: normal;
 }

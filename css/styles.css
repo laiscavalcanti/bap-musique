@@ -1,11 +1,11 @@
 body {
-  background-image: url('../images/bg-site_bap-3.png');
+  background-image: url("../images/bg-site_bap-3.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .wrapper {
-  padding: 2rem;
+  padding: 4rem;
 }
 .cover {
   width: auto;
@@ -29,37 +29,33 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .icon-media {
   width: 40px;
   height: 40px;
 }
-.icon-media:hover{
+.icon-media:hover {
   margin-top: -0.5rem;
 }
 .container-music {
-  margin-top: 12rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10rem auto 0 auto;
 }
+
 .embed {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5rem auto 0 auto;
   width: 40rem;
-  height: 380px;
 }
 
 .title {
   text-align: center;
   font-size: 4rem;
   color: #ffffff;
-  margin-bottom: 4rem;
+  text-transform: uppercase;
 }
 
 .dark-color {
   color: #000000;
-   margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .container-about {
@@ -71,15 +67,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .footer {
-  margin-top: 8rem;
+  margin-top: 10rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -88,11 +84,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 }
 .t1,
 .t2,
 .t3 {
-  font-family: "Quicksand", sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 22px;
   color: #ffffff;
   padding: 1rem;
@@ -102,17 +99,16 @@ body {
 /*---tablet---*/
 @media only screen and (max-width: 811px) {
   .wrapper {
-    padding: 0 0 0 0;
-    margin-top: 5rem;
+    padding: 0;
+    margin-top: 2rem;
   }
   .image-logo {
     width: 550px;
   }
   .nav-bar {
     width: 20rem;
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
-
   .icon-media {
     width: 35px;
     height: 35px;
@@ -123,11 +119,10 @@ body {
     margin-top: 0rem;
   }
   .container-music {
-    padding: 0rem 0 0rem 0;
-    margin-bottom: 0rem;
+   margin: 1rem auto 0 auto;
   }
   .container-about {
-    padding: 0rem 0 11rem 0;
+    padding: 0rem 0 12rem 0;
     margin: 0 auto 0 auto;
   }
   .title {
@@ -135,13 +130,12 @@ body {
   }
   .text {
     width: 36rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
     font-size: 14px;
   }
   .footer {
-    margin-top: 0rem;
-    margin-bottom: 4rem;
+    margin-top:0rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -150,17 +144,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 6rem;
+    margin-top: 0rem;
   }
 }
-
-
+/*---phones---*/
 @media only screen and (max-width: 375px) {
   body {
     background-image: url("../images/bg-alt_1.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .wrapper {
     padding: 0rem 0 0 0;
@@ -197,38 +187,31 @@ body {
   }
   .title {
     font-size: 2.5rem;
+    margin-bottom: 0;
   }
   .text {
     width: 22rem;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Quicksand", sans-serif;
     line-height: 22px;
-    text-align: left;
     font-size: 16px;
     margin-bottom: 2rem;
   }
   .footer {
     margin-top: 0rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     margin-left: auto;
     margin-right: auto;
   }
   .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 6rem;
+  }
+  #player{
+    max-width: 300px;
+    margin: 0 auto 0 auto;
   }
 }
 @media only screen and (max-width: 430px) {
   body {
     background-image: url("../images/bg-alt_1.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .wrapper {
     padding: 0rem 0 0 0;
@@ -249,7 +232,7 @@ body {
     height: 30px;
   }
   .embed {
-    width: 80%;
+    width: 50%;
     height: 200px;
     margin-top: 0rem;
   }
@@ -265,6 +248,7 @@ body {
   }
   .title {
     font-size: 2.5rem;
+    margin-bottom: 0;
   }
   .text {
     width: 22rem;
@@ -284,5 +268,8 @@ body {
     align-items: center;
     padding-top: 4rem;
   }
+  #player{
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+  }
 }
-
