@@ -6,12 +6,11 @@
   height: auto;
   margin: 0 auto;
 }
-
 .image-logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 4rem auto;
   width: 750px;
+
 }
 .nav-bar {
   width: 35rem;
@@ -206,7 +205,6 @@
   }
   .embed {
     width: 50%;
-  
   }
 
   .title {
