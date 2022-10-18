@@ -68,6 +68,17 @@
   margin-bottom: 1rem;
 }
 
+.title-alt {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+
 .title::selection {
   color: #000000;
   background-color: #cd5174;
