@@ -226,3 +226,34 @@
     font-size: 15px;
   }
 }
+
+.row-center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.cta-btn{
+  background-color: #51CDAA;
+  padding: 8px 20px 6px 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: all 0.2s;
+  color:black;
+
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+
+}
+.cta-btn:hover{
+  background-color: #bfcf61;
+  text-decoration: none;
+  
+}
